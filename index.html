@@ -3,34 +3,85 @@
 <head>
   <meta charset="utf-8">
   <title>Shmoogle</title>
+  <link href="app.css" media="screen" rel="stylesheet"/>
 </head>
 <body>
 
-<ul>
+<div class="navigation-container">
+<ul class=nav>
   <li>
-    <a href="#">Search</a>
+    <a href="#" class=active>Search</a>
   </li>
-  ...more links here...
+  <li>
+    <a href="#" class=active>Images</a>
+  </li>
+  <li>
+    <a href="#" class=active>Maps</a>
+  </li>
+  <li>
+    <a href="#" class=active>Play</a>
+  </li>
+  <li>
+    <a href="#" class=active>Youtube</a>
+  </li>
+  <li>
+    <a href="#" class=active>News</a>
+  </li>
+  <li>
+    <a href="#" class=active>Gmail</a>
+  </li>
+  <li>
+    <a href="#" class=active>Drive</a>
+  </li>
   <li>
     <a href="#">Calendar</a>
   </li>
 </ul>
+</div>
 
+<div class="search-container">
 <form>
   <label>Shmoogle</label>
   <input type="search" name="search">
   <input type="submit" value="Search">
 </form>
+</div>
 
-<ul>
+<div class="filters-container">
+<ul class="filters">
   <li>
     <a href="#">Web</a>
   </li>
-  ...more links here...
+  <li>
+    <a href="#">Images</a>
+  </li>
+  <li>
+    <a href="#">Maps</a>
+  </li>
+  <li>
+    <a href="#">Shopping</a>
+  </li>
   <li>
     <a href="#">Search Tools</a>
   </li>
 </ul>
+</div>
+
+<div class="main-container">
+  <ol class="search-result-list">
+    <li>
+      <div class="search-result">
+        <h3 class= "search-result-title">
+          <a href="#">Awesome Fake Result Title</a>
+        </h3>
+        <cite class = search-result-source>www.awesomesauce.com</cite>
+        <span>Something that is more awesome than awesome. It is a modifier of your basic awesome into a more awesome version.</span>
+      </div>
+    </li>
+  </ol>
+</div>
+
+
 
 </body>
 </html>
